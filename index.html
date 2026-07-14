@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umesh Pal Portfolio</title>
+    <link rel="icon" href="/assests/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    
+<!-- Navbar -->
+
+<nav>
+<div class="logo"><img src="/assests/logo.png" alt="UP Logo"></div>
+<div class="menu-toggle">
+    <i class="fa-solid fa-bars"></i>
+</div>
+<ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+     <li><a href="#services">Services</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<!-- Hero Section -->
+
+<section id="home">
+    <div class="hero-main">
+    <div class="hero-content">
+        <h1>Hi, I'm Umesh Pal</h1>
+        <br>
+        <h2><span id="hero-text"></span></h2>
+
+        <p>Passionate about building modern and responsive web applications. <br>Currently learning Full Stack Development while strengthening my skills through real-world projects.<br>
+            Always eager to learn, grow, and become a skilled Software Engineer.
+        </p>
+        </div>
+        
+         <div class="hero-image">
+            <img src="/assests/my_photo.jpeg" alt="Umesh Pal">
+        </div>
+
+        </div>
+       
+        <div class="hero-buttons">
+            <button><a href="projects.html"><b>My Projects</b></a></button>
+        <button><a href="/assests/Umesh_Pal_Resume.pdf"download><b>Download CV</b></a></button>
+
+        <!-- <br><br> -->
+        <!-- <button><a href="#projects"><b>My Projects</b></a></button>
+        <button><a href="assets/resume.pdf"download><b>Download CV</b></a></button> -->
+
+    <div class="social">
+        <a href="https://github.com/Umeshpal97" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/umeshpal97" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://x.com/Umeshpal97" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.instagram.com/umesh_.pal" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+
+    </div>
+</div>
+       <!-- <div class="hero-image">
+            <img src="/assests/my_photo.jpeg" alt="Umesh Pal">
+        </div> -->
+</section>
+
+<!-- About -->
+ <section id="about">
+    <div class="about-container">
+        <div class="about-image desktop-image">
+            <img src="/assests/about_photo.jpeg" alt="Umesh Pal">
+            </div>
+
+            <div class="about-content">
+                <span class="about-tag">About Me</span>
+
+            <h4><span id="about-text"></span></h4>
+    <p>I am passionate about creating modern and responsive websites. I have learned HTML, CSS, JavaScript, C, C++ and Java, and I'm currently growing my skills to become a Full Stack Developer.</p>
+    <p>Currently pursuing B.Tech (CSE) from Invertis University, I continuously improve my skills through real-world projects and hands-on development experience.</p>
+    
+    <div class="about-image mobile-image">
+         <img src="/assests/about_photo.jpeg" alt="Umesh Pal">
+    </div>
+    
+    <div class="about-highlight">
+        💡 Turning ideas into clean, responsive, and user-friendly web experiences.
+    </div>
+   
+    <h3>Skills</h3>
+    <div id="skills" class="skills-box">
+        <span>C</span>
+        <span>C++</span>
+        <span>Java</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Bootstrap</span>
+        <span>JavaScript</span>
+        <span>Git</span>
+        <span>GitHub</span>
+        </div>
+    </div>
+ </div>
+ </section>
+
+<!-- Services -->
+   <section id="services">
+    <div class="services-title">
+        <span>Services</span>
+        <!--<h2>What I Offer</h2>--><br><br>
+        <p><b>Transforming ideas into responsive digital experience</b></p>
+    </div>
+    
+    <div class="service-grid">
+        <div class="service-card">
+            <i class="fa-solid fa-laptop-code"></i>
+            <h3>Frontend development</h3>
+            <p>Modern, responsive and user-friendly websites.</p>
+        </div>
+
+        <div class="service-card active">
+            <i class="fa-solid fa-palette"></i>
+        <h3>Web Design</h3>
+            <p>Creative and attractive website designs.</p>
+        </div>
+
+        <div class="service-card">
+            <i class="fa-solid fa-mobile-screen"></i>
+            <h3>Responsive Design</h3>
+            <p>Mobile, tablet and desktop friendly layouts.</p>
+        </div>
+
+        <div class="service-card">
+            <i class="fa-solid fa-layer-group"></i>
+            <h3>UI Design</h3>
+            <p>Clean and visually appealing user interfaces.</p>
+        </div>
+    </div>
+   </section>
+
+<!-- Projects -->
+
+   <section id="projects">
+   <div class="projects-title">
+        <span>My Projects</span>
+        <br><br>
+        <p><b>Discover the projects that showcase my passion for design and innovation.</b></p>
+    </div>
+
+    <!-- <div class="projects-grid"> -->
+     <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+
+     <!--Projects 5th --> 
+    <div class="swiper-slide">
+        <div class="projects-card">
+            <img src="/assests/project1.jpg.jpeg" alt="Project 5">
+            <div class="card-content">
+                <div class="title-tag">
+                    <h3>Civic Issue Reporting Tool</h3>
+                    <!-- <span>Web App</span> -->
+                </div>
+                <p>Web-based platform to report and track civic issues like roads, water, and cleanliness.</p>
+                <div class="btns">
+                    <a href="https://umeshpal97.github.io/Civic-Issue-Reporting-Website/"><i class="fa-solid fa-arrow-up-right-from-square"></i> <b>Live Demo</b></a>
+                    <a href="https://github.com/Umeshpal97/Civic-Issue-Reporting-Website.git"><i class="fa-brands fa-github"></i> <b>GitHub</b></a>
+                </div>
+            </div>
+            </div>
+            </div>
+
+     <!-- Projects 4th -->
+
+         <div class="swiper-slide">
+          <div class="projects-card">
+            <!-- <img src="#" alt="Project 4"> -->
+             <video width="100%" controls><source src="/assests/rc_car.mp4" type="video/mp4">View Demo.</video>
+
+            <div class="card-content">
+                <div class="title-tag">
+                    <h3>RC Car Project</h3>
+                    <!-- <span>Frontend</span> -->
+                </div>
+                <p>Bluetooth Controlled RC Car using Arduino (ESP32).</p>
+
+                <div class="btns">
+                     <a href="/assests/RC_Car_image.jpeg"><i class="fa-solid fa-eye"></i> <b>View Images</b></a>
+                    <a href="https://github.com/Umeshpal97/Bluetooth-Controlled-RC-Car-Using-ESP32.git"><i class="fa-brands fa-github"></i> <b>GitHub</b></a>
+                </div>
+            </div>
+            </div>
+            </div>
+
+     <!-- Projects 3rd -->
+         <div class="swiper-slide">
+          <div class="projects-card">
+            <img src="/assests/calculator.jpeg" alt="Project 3">
+
+            <div class="card-content">
+                <div class="title-tag">
+                    <h3>Calculator App</h3>
+                    <!-- <span>Frontend</span> -->
+                </div>
+                <p>Simple Calculator using HTML, CSS & JavaScript.</p>
+
+                <div class="btns">
+                     <a href="https://umeshpal97.github.io/Calculator-Internship-Task-2/"><i class="fa-solid fa-arrow-up-right-from-square"></i> <b>Live Demo</b></a>
+                    <a href="https://github.com/Umeshpal97/Calculator-Internship-Task-2.git"><i class="fa-brands fa-github"></i> <b>GitHub</b></a>
+                </div>
+            </div>
+            </div>
+            </div>
+
+ <!-- Projects 2nd -->
+         <div class="swiper-slide">
+          <div class="projects-card">
+            <img src="/assests/youtube_UI_Clone.jpeg" alt="Project 2">
+
+            <div class="card-content">
+                <div class="title-tag">
+                    <h3>Youtube UI Clone</h3>
+                    <!-- <span>Frontend</span> -->
+                </div>
+                <p>Clone of Youtube homepage using HTML, CSS.</p>
+
+                <div class="btns">
+                     <a href="https://umeshpal97.github.io/YouTube-Layout-Internship-Task-3/"><i class="fa-solid fa-arrow-up-right-from-square"></i> <b>Live Demo</b></a>
+                    <a href="https://github.com/Umeshpal97/YouTube-Layout-Internship-Task-3.git"><i class="fa-brands fa-github"></i> <b>GitHub</b></a>
+                </div>
+            </div>
+            </div> 
+            </div>
+            
+ <!-- Projects 1st -->
+            <div class="swiper-slide">
+          <div class="projects-card">
+            <img src="/assests/portfolio.jpeg" alt="Projects 1">
+
+            <div class="card-content">
+                <div class="title-tag">
+                    <h3>Portfolio Website</h3>
+                    <!-- <span>Frontend</span> -->
+                </div>
+                <p>Personal portfolio website using HTML & CSS.</p>
+
+                <div class="btns">
+                     <a href="https://umeshpal97.github.io/Portfolio-Internship-Task-1/"><i class="fa-solid fa-arrow-up-right-from-square"></i> <b>Live Demo</b></a>
+                    <a href="https://github.com/Umeshpal97/Portfolio-Internship-Task-1.git"><i class="fa-brands fa-github"></i> <b>GitHub</b></a>
+                </div>
+            </div>
+            </div>            
+            </div>
+            </div>
+
+        <!-- <div class="swiper-button-next"></div> 
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>   
+           -->
+        </div>
+         <div class="projects-controls">
+            <i class="fa-solid fa-arrow-left" id="prev"></i>
+            <div class="see-all">
+                <a href="projects.html">See All</a>
+            </div>
+            <i class="fa-solid fa-arrow-right" id="next"></i>
+            </div>
+   </section>
+
+<!-- Contact -->
+ <section id="contact">
+    <div class="contact-title">
+        <span>Contact</span>
+        </div>
+    <div class="contact-container">
+
+<!-- Left Side -->
+ <div class="contact-left">
+    <h1>
+        <span class="dot"></span>
+        Let's Create Something Amazing Together
+    </h1>
+
+
+<!--Wave Design-->
+    <svg class="wave" width="280" height="90" viewBox="0 0 280 90">
+        <path d="M10 45 C60 90,120 90,170 45 S250 0,270 45" stroke="#d66dff" stroke-width="6" fill="none" stroke-linecap="round"/>
+        <circle cx="20" cy="45" r="6" fill="#ff5ef1"/>
+    </svg>
+ </div> 
+ 
+ <!-- Right Side -->
+  <div class="contact-right">
+    <form id="contactForm">
+        <label><b>Name</b></label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label><b>Email</b></label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label><b>Message</b></label>
+        <textarea id="message" name="message" rows="6" placeholder="Enter Message" required></textarea>
+
+        <button type="submit"><i class="fa-solid fa-message"></i> <b> Send Message</b>
+        </button>
+    </form>
+  </div>
+    </div>
+ </section>
+
+ <!-- Footer -->
+
+ <footer class="footer">
+    <div class="footer-container">
+
+        <!-- Logo -->
+        <div class="footer-box">
+            <img src="assests/logo.png" alt="Logo" class="footer-logo">
+            <p>
+                Building modern and responsive<br>
+                web experiences with passion.
+            </p>
+        </div>
+
+        <!-- Links -->
+        <div class="footer-box">
+            <h3>Quicks Links</h3>
+
+            <a href="index.html#home"><i class="fa-solid fa-angle-right"></i> Home</a>
+            <a href="index.html#about"><i class="fa-solid fa-angle-right"></i> About</a>
+            <a href="index.html#skills"><i class="fa-solid fa-angle-right"></i> Skills</a>
+            <a href="projects.html"><i class="fa-solid fa-angle-right"></i> Projects</a>
+            <a href="index.html#contact"><i class="fa-solid fa-angle-right"></i> Contact</a>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-box">
+            <h3>Contact</h3>
+
+            <p class="contact-item"><i class="fa-solid fa-envelope"></i> umeshpalshispn@gmail.com</p>
+            <p class="contact-item"><i class="fa-solid fa-phone"></i> +91 9792880127</p>
+            <p class="contact-item"><i class="fa-solid fa-location-dot"></i> <span>Shahjahanpur, <br>Uttar Pradesh, India</span></p>
+        </div>
+
+        <!-- Social -->
+        <div class="footer-box">
+            <h3>Connect With Me</h3>
+
+            <a href="https://www.linkedin.com/in/umeshpal97"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/Umeshpal97"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="https://www.instagram.com/umesh_.pal"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            <a href="https://x.com/Umeshpal97"><i class="fa-brands fa-x-twitter"></i> Twitter</a>
+            <a href="https://www.facebook.com/share/1EbtJK6Puf/"><i class="fa-brands fa-facebook"></i> Facebook</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>
+            Designed & Developed with
+            <span class="heart">❤️</span>
+            by <strong>Umesh Pal</strong>
+        </p>
+
+        <p>© 2026 Umesh Pal. All Rights Reserved.</p>
+    </div>
+</footer>
+
+
+ <!-- Typed.js CDN -->
+
+ <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.js"></script>
+ <script src="animation.js"></script>
+
+ <!--Swiper.js CDN-->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="swiper.js"></script>
+
+<!-- contact.JS Src -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script type="module" src="contact.js"></script>
+
+</body>
+</html>
