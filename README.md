@@ -44,10 +44,10 @@ https://umeshpal97.github.io/Umesh-Pal-Portfolio/
 📧 Email: umeshpalshipsn@gmail.com
 
 💼 LinkedIn:
-https://www.linkedin.com/in/umeshpa197/
+https://www.linkedin.com/in/umeshpal97/
 
 🐙 GitHub:
-https://github.com/Umeshpa197
+https://github.com/Umeshpal97
 
 ## 🎯 Current Goal
 
