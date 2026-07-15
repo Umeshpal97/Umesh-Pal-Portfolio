@@ -8,7 +8,7 @@ https://umeshpal97.github.io/Umesh-Pal-Portfolio/
 
 ## 📸 Portfolio Preview
 
-! [Portfolio Screeshot](./Screenshots/portfolio Preview.png)
+! [Portfolio Screeshot](./Screenshots/Portfolio_Preview.png)
 
 ## ✨ Features
 
