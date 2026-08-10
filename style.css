@@ -74,8 +74,11 @@ nav ul li a:hover{
 /* Hero */
 
 #home{
-    min-height: 100vh;
-    padding:80px 8%;
+    /* min-height: 100vh; */
+    min-height: auto;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    /* padding:80px 8%; */
 }
 
 .hero-main {
@@ -468,7 +471,7 @@ button a{
 }
 
 .service-card:hover,
-service-card.active{
+.service-card.active{
     background: linear-gradient(135 deg,#ff66c4,#d946ef);
     transform: translateY(-10px);
     box-shadow: 0 0 20px #d946ef,0 0 40px #d946ef;
