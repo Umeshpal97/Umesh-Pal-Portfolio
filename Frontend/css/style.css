@@ -764,7 +764,7 @@ section{
 
 #contact {
     width: 100%;
-    min-height: 100vh;
+    min-height: auto;
     padding: 100px 8%;
     background: #170019;
     position: relative;
