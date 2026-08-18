@@ -2,18 +2,12 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const dotenv = require("dotenv");
-const path = require("path");
 
 const Contact = require("./models/contact");
 
 dotenv.config();
 
 const app = express();
-app.use(express.static(path.join(__dirname, "../Frontend")));
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "../Frontend/index.html"));
-});
-
 
 app.use(cors());
 app.use(express.json());

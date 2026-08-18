@@ -7,7 +7,7 @@ contactForm.addEventListener("submit", async (e) => {
   const message = document.querySelector("#message").value.trim();
 
   try{
-    const response = await fetch("/api/contact", {
+    const response = await fetch("https://umesh-pal-portfolio.onrender.com/api/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
