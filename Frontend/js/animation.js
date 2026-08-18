@@ -29,8 +29,8 @@ new Typed("#hero-text", {
         "Frontend Developer",
         "Aspiring Backend Developer",
         "Aspiring Full Stack Developer",
-        "Problem Solver",
-        "Tech Enthusiast",
+        "Aspiring React Developer",
+        "Aspiring Node.js Developer",
         "Aspiring Software Engineer"
     ],
     typeSpeed: 50,
@@ -44,8 +44,8 @@ new Typed("#about-text", {
         "Frontend Developer",
         "Aspiring Backend Developer",
         "Aspiring Full Stack Developer",
-        "Problem Solver",
-        "Tech Enthusiast",
+        "Aspiring React Developer",
+        "Aspiring Node.js Developer",
         "Aspiring Software Engineer"
     ],
     typeSpeed: 50,
