@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const dotenv = require("dotenv");
 
-const Contact = require("./models/Contact");
+const Contact = require("./models/contact");
 
 dotenv.config();
 
