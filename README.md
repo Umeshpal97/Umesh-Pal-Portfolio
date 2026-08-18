@@ -26,7 +26,10 @@ https://umesh-pal-portfolio.vercel.app/
 - HTML5
 - CSS3
 - JavaScript
-- Firebase Firestore
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
 - Git & GitHub
 
 ## 📂 Projects
